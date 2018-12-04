@@ -9,19 +9,19 @@ namespace AsyncAwaitStopwatchDemo
     {
         public async Task OneSecondTask()
         {
-            await Task.Delay(2000);
+            await Task.Delay(1000);
             return;
         }
 
         public async Task FourSecondTask()
         {
-            await Task.Delay(10000);
+            await Task.Delay(4000);
             return;
         }
 
         public async Task TwoSecondTask()
         {
-            await Task.Delay(5000);
+            await Task.Delay(2000);
             return;
         }
 
